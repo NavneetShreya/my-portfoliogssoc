@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navneet Shreya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        header nav ul li a:hover {
+            color: #e2e2e2;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2.5em;
+            color: #35424a;
+            border-bottom: 2px solid #35424a;
+            padding-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            animation: zoom 0.5s ease-in-out;
+        }
+        @keyframes zoom {
+            0% { transform: scale(0.5); }
+            100% { transform: scale(1); }
+        }
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: white;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .achievement {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e2e2e2;
+            border-left: 5px solid #35424a;
+        }
+        .quote {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #35424a;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Navneet Shreya</h1>
+        <p>Computer Science and Engineering Student at NIT Patna</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate Computer Science student with a strong interest in programming, data science, and innovative technology solutions. I believe in the power of collaboration and hard work to achieve goals. In my free time, I enjoy reading, coding, and exploring new technologies.</p>
+        <img src="images/profile-pic.jpeg" alt="Navneet Shreya" class="profile-img">
+        <div class="quote">
+            <p>“उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः! न हि सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः”</p>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project">
+            <strong><a href="https://github.com/yourusername/SURAKSHA" target="_blank">SURAKSHA</a>:</strong>
+            <p>A UAV recognition system developed for Smart India Hackathon 2024.</p>
+            <img src="images/suraksha-project-image.jpg" alt="SURAKSHA Project">
+        </div>
+        <div class="project">
+            <strong><a href="https://github.com/yourusername/Movie-Recommendation-System" target="_blank">Movie Recommendation System</a>:</strong>
+            <p>Developed using collaborative filtering and content-based filtering techniques.</p>
+            <img src="images/movie-recommendation-image.jpg" alt="Movie Recommendation System">
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, C++, SQL</li>
+            <li><strong>Data Science Tools:</strong> Pandas, NumPy, Matplotlib</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+        </ul>
+    </section>
+
+    <section id="achievements" class="fade-in">
+        <h2>Achievements</h2>
+        <div class="achievement">Qualified for IOQM and received a merit certificate.</div>
+        <div class="achievement">Secured AIR-2282 and category rank-145 in IAT.</div>
+        <div class="achievement">Achieved state rank-24 in NTSE(SCERT) and district rank-3 in VVM.</div>
+        <div class="achievement">International rank-4 in Eduheal Science Olympiad and SOF IMO gold medalist with zonal rank-26.</div>
+        <div class="achievement">Winner of multiple quizzes, including Eureka hosted by Mr. Barry O'Brien.</div>
+        <div class="achievement">Best Delegate at NIT Patna for UNSC and JPC in MUN competitions.</div>
+        <div class="achievement">Two-time Guinness World Record holder for a group project organized by VVM.</div>
+        <div class="achievement">Awarded by the Education Minister of Bihar for excellence in the 12th exam.</div>
+        <div class="achievement">Ranked in the top 5% of the AIgnite contest organized by IIT Bombay.</div>
+        <div class="achievement">Silver medalist in the Eccentrica fest at NIT Patna.</div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+        <form action="mailto:navneets.ug23.cs@nitp.ac.in" method="get" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Navneet Shreya</p>
+        <div class="social-icons">
+            <a href="https://github.com/navneetshreya"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/navneet-shreya-06153728b"><i class="fab fa-linkedin"></i></a>
+            <a href="https://youtube.com/@NavneetShreya?si=1TwsiLcsrCOtvtpD"><i class="fab fa-youtube"></i
+			</div>
+		</footer>
+	
+		<script>
+			// Animation on scroll
+			const sections = document.querySelectorAll('.fade-in');
+			const observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('visible');
+						observer.unobserve(entry.target);
+					}
+				});
+			});
+	
+			sections.forEach(section => {
+				observer.observe(section);
+			});
+		</script>
+	</body>
+	</html>
