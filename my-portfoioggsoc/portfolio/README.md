@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a personal portfolio website showcasing the projects and skills of Divyansh Srivastava. The website is built using HTML and CSS, based on the Strata template by HTML5 UP.
+This is a personal portfolio website showcasing the projects and skills of Navneet Shreya. The website is built using HTML and CSS, based on the Strata template by HTML5 UP.
 
 ## Features
 
